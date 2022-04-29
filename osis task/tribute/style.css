@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Sacramento&family=Source+Sans+Pro:wght@300&family=Tajawal:wght@300&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#d1{
+    background-color: black;
+    height: 49vh;
+    width: 100%;
+    color: rgb(250, 248, 248);
+    padding-left: 50px;
+}
+.p1{
+    font-size: 70px;
+    padding: 70px;
+    font-weight: 30px;
+    font-family: 'Sacramento', 'cursive';
+    padding-left: 50%;
+}
+.p2{
+    padding-left: 230px;
+    font-size: 30px;
+}
+#d1 img{
+    height: 100%;
+    float: left;
+   margin-left: 10%;
+}
+
+   
+#d2{
+    height: 328px;
+    text-align:center; 
+    width: 710px;
+    font-size: 20px;
+    padding: 45px;
+    color: rgb(7, 7, 7);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    float: inline-start;
+    height: 50vh;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#d3{
+    width: 625px
+    
+}
+#i1{
+    width: 100%;
+    height: 327px;
+    object-fit: cover;
+}
+#i2{
+    width: 100%;
+    height: 327px;
+    object-fit: cover;
+}
+#i3{
+    height: 327px;
+    width: 100%;
+    object-fit: fill;
+}
